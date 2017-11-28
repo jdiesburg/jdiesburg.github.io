@@ -1,27 +1,38 @@
 img {
+	margin-left: 5%
 
+}
+
+div {
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 nav {
-	color: darkgray;
 	text-align: left;
-	left: 10%;
-	right: 90%;
+	margin-right: 20%;
+	margin-left: 5%;
 }
-article {
-	margin-left: 30%;
+
+section {
+	margin-left: 40%;
 	margin-right: 10%;
 }
+
 h1 {
 	color: #FFAB66;
 	text-align: center;
 }
 
-h2 {
-	
-}
-
 footer {
 	color: white;
 	background: #FFAB66;
+	float: bottom;
 }
+
+aside {
+	margin-right: 70%;
+}
+
+
+

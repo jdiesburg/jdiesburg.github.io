@@ -6,9 +6,19 @@ nav {
 	margin-right: 0px;
 }
 
+nav img {
+	margin-left: 20px;
+}
+
+nav article {
+	margin-left: 20px;
+	font-size: 12px;
+}
+
 h1 {
 	color: #FFAB66;
-	text-align: center;
+	text-align: left;
+	font-size: 50px;
 }
 
 footer {
@@ -20,7 +30,7 @@ footer {
 }
 
 section {
-	margin-left: 341px;
+	margin-left: 350px;
 	border-left: 1px;
 	padding: 1em;
 	overflow: hidden;
@@ -36,3 +46,11 @@ form {
 	margin-top: 40px;
 	width: 200px;
 }
+
+header {
+	font-size: 60px;
+	font-weight: bold;
+	color: #FFAB66;
+	margin-top: 5px;
+}
+

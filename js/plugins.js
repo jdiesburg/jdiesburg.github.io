@@ -22,13 +22,4 @@
 }());
 
 // Place any jQuery/helper plugins in here.
-$(document).ready(function(){
-    $("#slider").bxslider({
-        minSlides:3,
-        maxSlides:3,
-        slideWidth:250,
-        slideMargin: 10
-    });
-});
-
 

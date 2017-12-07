@@ -42,34 +42,31 @@
                 </nav>
 
 
-
-                <link rel="stylesheet" href="/path/to/jquery.bxslider.css">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-                <script src="/path/to/jquery.bxslider.min.js"></script>
-                
-
-                <script>
-                  $(document).ready(function(){
-                    $('.slider').bxSlider();
-                  });
-                </script>
+<div id="Carousel" class="carousel slide">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
 
-<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+                        <div class="carousel-inner">
+                            <li><img  src="img/pic3.jpg" width="700" height="434" alt="" title="front"/></li>
+                        </div>
 
-<script src="js/jquery.bxSlider.min.js"></script>
+                        <div class="carousel-inner">
+                            <li><img  src="img/pic1.jpg" width="700" height="434" alt="" title="left side"/></li>
+                        </div>
 
-
-
-                <div class="slider">
-                    <ul id="slider">
-                        <li><img  src="img/pic3.jpg" width="700" height="434" alt="" title="front"/></li>
-                        <li><img  src="img/pic1.jpg" width="700" height="434" alt="" title="left side"/></li>
-                        <li><img src="img/pic2.jpg" width="700" height="434" alt="" title="right side"/></li>
+                        <div class="carousel-inner">
+                            <li><img src="img/pic2.jpg" width="700" height="434" alt="" title="right side"/></li>
+                        </div>
                     </ul>
-                  <div>I am a slide.</div>
-                  <div>I am another slide.</div>
                 </div>
+            </div>
+
+
+
                 
                 
 
